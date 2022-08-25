@@ -1,0 +1,9 @@
+.lead__banner {
+    width: 984px;
+    height: 615px;
+    background: url(../../../images/lead-polka.png) center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
