@@ -1,0 +1,10 @@
+.header__lang-link{
+
+}
+
+.header__lang-link:visited {
+    text-decoration: underline;
+}
+.header__lang-link:hover {
+    text-decoration: underline;
+}
