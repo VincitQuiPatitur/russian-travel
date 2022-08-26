@@ -7,3 +7,10 @@
     text-transform: uppercase;
     margin: 8px 0 0;
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .lead__caption {
+        padding-left: 24px;
+        box-sizing: border-box;
+    }
+}

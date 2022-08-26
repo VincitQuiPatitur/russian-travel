@@ -11,3 +11,10 @@
         height: 580px;
     }
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .lead__banner {
+        width: 768px;
+        height: 480px;
+    }
+}
