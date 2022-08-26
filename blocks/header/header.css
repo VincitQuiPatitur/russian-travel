@@ -13,8 +13,16 @@
     }
 }
 
-@media (max-width: 767px) and (min-width: 425px) {
+@media (max-width: 767px) and (min-width: 425px){
     .header {
         max-width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 424px) {
+    .header {
+        height: 42px;
+        max-width: calc(100% - 32px);
+        margin: 16px auto 0;
     }
 }

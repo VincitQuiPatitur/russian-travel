@@ -3,7 +3,7 @@
     margin-left: 148px;
 }
 
-@media (max-width: 1280px) and (min-width: 1024px) {
+@media (max-width: 1279px) and (min-width: 1024px) {
     .intro {
         margin-left: 48px;
     }
@@ -16,9 +16,16 @@
     }
 }
 
-@media (max-width: 767px) and (min-width: 425px) {
+@media (max-width: 767px) and (min-width: 425px){
     .intro {
         max-width: 425px;
         margin-left: 20px;
+    }
+}
+
+@media (max-width: 424px) {
+    .intro {
+        max-width: 288px;
+        margin-left: 16px;
     }
 }

@@ -1,3 +1,15 @@
 .lead__block {
     margin: 64px auto;
 }
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .lead__block {
+        margin: 58px auto;
+    }
+}
+
+@media (max-width: 424px) {
+    .lead__block {
+        margin: 48px auto;
+    }
+}

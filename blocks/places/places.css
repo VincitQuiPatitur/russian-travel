@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-@media (max-width: 1280px) and (min-width: 1024px) {
+@media (max-width: 1279px) and (min-width: 1024px) {
     .places {
         max-width: calc(100% - 48px * 2);
     }
@@ -15,8 +15,14 @@
     }
 }
 
-@media (max-width: 767px) and (min-width: 425px) {
+@media (max-width: 767px) and (min-width: 425px){
     .places {
         max-width: calc(100% - 20px * 2);
+    }
+}
+
+@media (max-width: 424px) {
+    .places {
+        max-width: 100%;
     }
 }

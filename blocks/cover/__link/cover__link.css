@@ -16,7 +16,7 @@
     opacity: .8;
 }
 
-@media (max-width: 1280px) and (min-width: 1024px) {
+@media (max-width: 1279px) and (min-width: 1024px) {
     .cover__link {
         padding: 19% 0;
     }
@@ -31,5 +31,11 @@
 @media (max-width: 767px) and (min-width: 425px) {
     .cover__link {
         padding: 13% 0;
+    }
+}
+
+@media (max-width: 424px) {
+    .cover__link {
+        padding: 10% 0;
     }
 }
