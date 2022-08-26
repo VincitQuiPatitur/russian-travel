@@ -1,9 +1,13 @@
 .lead__banner {
     width: 984px;
     height: 615px;
-    background: url(../../../images/lead-polka.png) center;
+    background: url(../../../images/lead-polka.jpg) center;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+    .lead__banner {
+        width: 928px;
+        height: 580px;
+    }
 }

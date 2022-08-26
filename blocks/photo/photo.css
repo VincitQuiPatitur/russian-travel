@@ -5,3 +5,10 @@
     grid-template-columns: repeat(4, fit-content(284px));
     gap: 16px;
 }
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+    .photo {
+        grid-template-columns: repeat(3, fit-content(300px));
+        gap: 14px;
+    }
+}

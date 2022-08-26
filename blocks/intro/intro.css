@@ -2,3 +2,9 @@
     max-width: 690px;
     margin-left: 148px;
 }
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+    .intro {
+        margin-left: 48px;
+    }
+}
