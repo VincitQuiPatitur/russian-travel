@@ -6,3 +6,11 @@
     margin: 0;
     text-align: center;
 }
+
+@media (max-width: 767px) and (min-width: 425px) {
+    .lead__subtitle {
+        width: 100%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

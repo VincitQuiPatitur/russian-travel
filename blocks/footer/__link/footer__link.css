@@ -4,3 +4,9 @@
 .footer__link:last-child {
     margin-right: 0;
 }
+
+@media (max-width: 767px) and (min-width: 425px) {
+    .footer__link {
+        margin: 0 0 32px 0;
+    }
+}

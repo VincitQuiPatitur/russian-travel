@@ -6,3 +6,11 @@
     line-height: 100px;
     text-align: center;
 }
+
+@media (max-width: 767px) and (min-width: 425px) {
+    .lead__title {
+        width: 100%;
+        font-size: 44px;
+        line-height: 48px;
+    }
+}

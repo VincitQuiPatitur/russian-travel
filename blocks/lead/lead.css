@@ -12,9 +12,16 @@
     }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 768px) {
     .lead {
         max-width: 768px;
         margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 425px) {
+    .lead {
+        max-width: 425px;
+        margin-bottom: 0;
     }
 }

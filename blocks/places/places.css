@@ -9,8 +9,14 @@
     }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 768px) {
     .places {
         max-width: calc(100% - 24px * 2);
+    }
+}
+
+@media (max-width: 767px) and (min-width: 425px) {
+    .places {
+        max-width: calc(100% - 20px * 2);
     }
 }

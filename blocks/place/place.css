@@ -16,7 +16,15 @@
     }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 767px) and (min-width: 425px) {
+    .place {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
     .place {
         grid-template-columns: 340px 1fr;
         column-gap: 28px;

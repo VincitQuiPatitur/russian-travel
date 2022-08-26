@@ -5,3 +5,9 @@
     padding: 0;
     margin: 0;
 }
+
+@media (max-width: 767px) and (min-width: 425px) {
+    .footer__links {
+        flex-direction: column;
+    }
+}
