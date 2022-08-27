@@ -23,7 +23,7 @@
         margin: 88px auto;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        gap: 16px
+        gap: 16px;
     }
 }
 
@@ -33,7 +33,7 @@
         margin: 64px auto;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        gap: 17px
+        gap: 17px;
     }
 }
 
@@ -42,6 +42,6 @@
         max-width: calc(100% - 32px);
         margin: 64px auto;
         grid-template-columns: 1fr;
-        gap: 12px
+        gap: 12px;
     }
 }
