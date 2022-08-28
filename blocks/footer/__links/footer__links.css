@@ -6,11 +6,12 @@
     margin: 0;
 }
 
-@media (max-width: 767px) and (min-width: 425px){
+@media (max-width: 767px) and (min-width: 425px) {
     .footer__links {
         flex-direction: column;
     }
 }
+
 @media (max-width: 424px) {
     .footer__links {
         flex-direction: column;

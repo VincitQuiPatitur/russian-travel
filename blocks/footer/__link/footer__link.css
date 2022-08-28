@@ -1,12 +1,13 @@
-.footer__link {
+.footer__link-item {
     margin-right: 18px;
 }
-.footer__link:last-child {
+
+.footer__link-item:last-child {
     margin-right: 0;
 }
 
-@media (max-width: 767px){
-    .footer__link {
+@media (max-width: 767px) {
+    .footer__link-item {
         margin: 0 0 32px 0;
     }
 }

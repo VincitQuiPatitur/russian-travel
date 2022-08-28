@@ -24,7 +24,7 @@
     }
 }
 
-@media (max-width: 767px) and (min-width: 425px){
+@media (max-width: 767px) and (min-width: 425px) {
     .place {
         grid-template-columns: 1fr;
         gap: 32px;
